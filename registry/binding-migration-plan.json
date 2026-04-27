@@ -10,7 +10,9 @@
     "completePairs": 36,
     "missingPairs": 0,
     "nodesWithOldVariableBindings": 177,
-    "oldVariableBindingReferences": 265
+    "oldVariableBindingReferences": 265,
+    "remainingOldVariableBindingReferencesAfterBatch13": 42,
+    "remainingOldVariableBindingNodesAfterBatch13": 41
   },
   "recommendedOrder": [
     {
