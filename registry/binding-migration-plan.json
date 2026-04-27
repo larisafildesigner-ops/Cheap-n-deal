@@ -16,6 +16,26 @@
   },
   "recommendedOrder": [
     {
+      "batch": 15,
+      "oldName": "state/error",
+      "newName": "semantic/color/state/error",
+      "estimatedReferences": 8,
+      "migratedReferences": 8,
+      "status": "applied",
+      "primaryPath": "fills.0, strokes.0",
+      "reason": "Error field borders and error text."
+    },
+    {
+      "batch": 15,
+      "oldName": "text/disable",
+      "newName": "semantic/color/text/disabled",
+      "estimatedReferences": 6,
+      "migratedReferences": 6,
+      "status": "applied",
+      "primaryPath": "fills.0",
+      "reason": "Disabled/descriptive text."
+    },
+    {
       "batch": 9,
       "oldName": "icon/default",
       "newName": "semantic/color/icon/default",
