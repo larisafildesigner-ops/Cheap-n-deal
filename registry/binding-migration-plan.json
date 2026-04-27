@@ -78,6 +78,8 @@
       "oldName": "background/base",
       "newName": "semantic/color/bg/base",
       "estimatedReferences": 10,
+      "migratedReferences": 10,
+      "status": "applied",
       "primaryPath": "fills.0",
       "reason": "Field/card/header surface fill binding."
     },
@@ -86,6 +88,8 @@
       "oldName": "Border/invers",
       "newName": "semantic/color/border/inverse",
       "estimatedReferences": 9,
+      "migratedReferences": 9,
+      "status": "applied",
       "primaryPath": "strokes.0",
       "reason": "Field/header select stroke binding."
     },
