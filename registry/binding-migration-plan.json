@@ -12,9 +12,41 @@
     "nodesWithOldVariableBindings": 177,
     "oldVariableBindingReferences": 265,
     "remainingOldVariableBindingReferencesAfterBatch13": 42,
-    "remainingOldVariableBindingNodesAfterBatch13": 41
+    "remainingOldVariableBindingNodesAfterBatch13": 41,
+    "remainingOldVariableBindingReferencesAfterBatch17": 5,
+    "remainingOldVariableBindingNodesAfterBatch17": 5
   },
   "recommendedOrder": [
+    {
+      "batch": 17,
+      "oldName": "icon/disabled",
+      "newName": "semantic/color/icon/disabled",
+      "estimatedReferences": 4,
+      "migratedReferences": 4,
+      "status": "applied",
+      "primaryPath": "strokes.0",
+      "reason": "Disabled icon strokes."
+    },
+    {
+      "batch": 17,
+      "oldName": "icon/active",
+      "newName": "semantic/color/icon/active",
+      "estimatedReferences": 4,
+      "migratedReferences": 4,
+      "status": "applied",
+      "primaryPath": "strokes.0",
+      "reason": "Active icon strokes, including instance-level bindings discovered during validation."
+    },
+    {
+      "batch": 17,
+      "oldName": "btn/full",
+      "newName": "component/icon/favorite/fill/active",
+      "estimatedReferences": 8,
+      "migratedReferences": 8,
+      "status": "applied",
+      "primaryPath": "fills.0, strokes.0",
+      "reason": "Favorite icon active fill/stroke bindings."
+    },
     {
       "batch": 16,
       "oldName": "btn/secondary inverse",
