@@ -36,8 +36,8 @@
       "proposedName": "Button/Icon",
       "variantAxes": ["State"],
       "risk": "applied",
-      "suggestedAction": "renamed-batch-05",
-      "notes": "Renamed in Figma from Button to Button/Icon in Batch 05. Variant axis cleanup remains separate."
+      "suggestedAction": "renamed-batch-05-state-axis-batch-06",
+      "notes": "Renamed in Figma from Button to Button/Icon in Batch 05. Variant axis normalized to State with Default, Pressed, Disabled in Batch 06."
     },
     {
       "id": "button-icon-back",
@@ -47,8 +47,8 @@
       "proposedName": "Button/Back",
       "variantAxes": ["State"],
       "risk": "applied",
-      "suggestedAction": "renamed-batch-05",
-      "notes": "Renamed in Figma from Button to Button/Back in Batch 05."
+      "suggestedAction": "renamed-batch-05-state-axis-batch-06",
+      "notes": "Renamed in Figma from Button to Button/Back in Batch 05. Variant axis normalized to State with Default, Disabled in Batch 06."
     },
     {
       "id": "button-secondary",
@@ -58,8 +58,8 @@
       "proposedName": "Button/Secondary",
       "variantAxes": ["State"],
       "risk": "applied",
-      "suggestedAction": "renamed-batch-05",
-      "notes": "Renamed in Figma from btn_secondary to Button/Secondary in Batch 05. Variant axis cleanup remains separate."
+      "suggestedAction": "renamed-batch-05-state-axis-batch-06",
+      "notes": "Renamed in Figma from btn_secondary to Button/Secondary in Batch 05. Variant axis normalized to State with Default, Pressed, Disabled in Batch 06."
     },
     {
       "id": "button-primary",
@@ -69,8 +69,8 @@
       "proposedName": "Button/Primary",
       "variantAxes": ["State"],
       "risk": "applied",
-      "suggestedAction": "renamed-batch-05",
-      "notes": "Renamed in Figma from btn_primary to Button/Primary in Batch 05. Variant axis cleanup remains separate."
+      "suggestedAction": "renamed-batch-05-state-axis-batch-06",
+      "notes": "Renamed in Figma from btn_primary to Button/Primary in Batch 05. Variant axis normalized to State with Default, Pressed, Disabled in Batch 06."
     },
     {
       "id": "tab-bar",
