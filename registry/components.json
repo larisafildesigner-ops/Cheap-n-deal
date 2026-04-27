@@ -35,9 +35,9 @@
       "type": "COMPONENT_SET",
       "proposedName": "Button/Icon",
       "variantAxes": ["State"],
-      "risk": "medium",
-      "suggestedAction": "confirm-meaning-before-figma-rename",
-      "notes": "Current axis is Property 1; values should normalize to Default, Pressed, Disabled if confirmed."
+      "risk": "applied",
+      "suggestedAction": "renamed-batch-05",
+      "notes": "Renamed in Figma from Button to Button/Icon in Batch 05. Variant axis cleanup remains separate."
     },
     {
       "id": "button-icon-back",
@@ -46,9 +46,9 @@
       "type": "COMPONENT_SET",
       "proposedName": "Button/Back",
       "variantAxes": ["State"],
-      "risk": "medium",
-      "suggestedAction": "confirm-meaning-before-figma-rename",
-      "notes": "Duplicate current name; proposed name needs consumer review."
+      "risk": "applied",
+      "suggestedAction": "renamed-batch-05",
+      "notes": "Renamed in Figma from Button to Button/Back in Batch 05."
     },
     {
       "id": "button-secondary",
@@ -57,9 +57,9 @@
       "type": "COMPONENT_SET",
       "proposedName": "Button/Secondary",
       "variantAxes": ["State"],
-      "risk": "medium",
-      "suggestedAction": "normalize-after-consumer-check",
-      "notes": "Normalize snake_case and mixed variant casing later."
+      "risk": "applied",
+      "suggestedAction": "renamed-batch-05",
+      "notes": "Renamed in Figma from btn_secondary to Button/Secondary in Batch 05. Variant axis cleanup remains separate."
     },
     {
       "id": "button-primary",
@@ -68,9 +68,9 @@
       "type": "COMPONENT_SET",
       "proposedName": "Button/Primary",
       "variantAxes": ["State"],
-      "risk": "medium",
-      "suggestedAction": "normalize-after-consumer-check",
-      "notes": "Normalize snake_case and mixed variant casing later."
+      "risk": "applied",
+      "suggestedAction": "renamed-batch-05",
+      "notes": "Renamed in Figma from btn_primary to Button/Primary in Batch 05. Variant axis cleanup remains separate."
     },
     {
       "id": "tab-bar",
@@ -90,9 +90,9 @@
       "type": "COMPONENT_SET",
       "proposedName": "Header",
       "variantAxes": ["Variant"],
-      "risk": "low",
-      "suggestedAction": "rename-axis-from-property-1-later",
-      "notes": "Current axis is Property 1; search variant should use consistent casing."
+      "risk": "applied",
+      "suggestedAction": "axis-renamed-batch-05",
+      "notes": "Header variant axis renamed from Property 1 to Variant; search value normalized to Search in Batch 05."
     },
     {
       "id": "icon",
