@@ -16,6 +16,46 @@
   },
   "recommendedOrder": [
     {
+      "batch": 16,
+      "oldName": "btn/secondary inverse",
+      "newName": "component/button/bg/secondary/on-muted",
+      "estimatedReferences": 5,
+      "migratedReferences": 5,
+      "status": "applied",
+      "primaryPath": "fills.0",
+      "reason": "Button/Back surfaces."
+    },
+    {
+      "batch": 16,
+      "oldName": "btn/secondary",
+      "newName": "component/button/bg/secondary/default",
+      "estimatedReferences": 3,
+      "migratedReferences": 3,
+      "status": "applied",
+      "primaryPath": "fills.0",
+      "reason": "Secondary button surfaces."
+    },
+    {
+      "batch": 16,
+      "oldName": "btn/disable",
+      "newName": "component/button/bg/disabled",
+      "estimatedReferences": 1,
+      "migratedReferences": 1,
+      "status": "applied",
+      "primaryPath": "fills.0",
+      "reason": "Disabled primary button surface."
+    },
+    {
+      "batch": 16,
+      "oldName": "accent/primary",
+      "newName": "semantic/color/accent/primary",
+      "estimatedReferences": 5,
+      "migratedReferences": 5,
+      "status": "applied",
+      "primaryPath": "fills.0",
+      "reason": "Primary button and badge/accent fills."
+    },
+    {
       "batch": 15,
       "oldName": "state/error",
       "newName": "semantic/color/state/error",
