@@ -48,6 +48,8 @@
       "oldName": "Radius/pill",
       "newName": "primitive/radius/pill",
       "estimatedReferences": 32,
+      "migratedReferences": 32,
+      "status": "applied",
       "primaryPath": "corner radius",
       "reason": "Common avatar/pill radius binding."
     },
@@ -56,6 +58,8 @@
       "oldName": "Radius/m",
       "newName": "primitive/radius/m",
       "estimatedReferences": 28,
+      "migratedReferences": 28,
+      "status": "applied",
       "primaryPath": "corner radius",
       "reason": "Common button/card radius binding."
     },
@@ -64,6 +68,8 @@
       "oldName": "Radius/s",
       "newName": "primitive/radius/s",
       "estimatedReferences": 12,
+      "migratedReferences": 12,
+      "status": "applied",
       "primaryPath": "corner radius",
       "reason": "Header/right-slot radius binding."
     },
