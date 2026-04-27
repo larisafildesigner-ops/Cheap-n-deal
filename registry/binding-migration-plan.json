@@ -18,6 +18,8 @@
       "oldName": "icon/default",
       "newName": "semantic/color/icon/default",
       "estimatedReferences": 53,
+      "migratedReferences": 53,
+      "status": "applied",
       "primaryPath": "strokes.0",
       "reason": "High impact, clear semantics, easy visual validation."
     },
