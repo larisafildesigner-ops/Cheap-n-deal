@@ -28,6 +28,8 @@
       "oldName": "text/primary",
       "newName": "semantic/color/text/primary",
       "estimatedReferences": 32,
+      "migratedReferences": 32,
+      "status": "applied",
       "primaryPath": "fills.0",
       "reason": "Common text fill binding."
     },
@@ -36,6 +38,8 @@
       "oldName": "text/secondary",
       "newName": "semantic/color/text/secondary",
       "estimatedReferences": 34,
+      "migratedReferences": 34,
+      "status": "applied",
       "primaryPath": "fills.0",
       "reason": "Common secondary text fill binding."
     },
