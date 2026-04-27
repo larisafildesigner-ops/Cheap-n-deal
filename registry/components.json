@@ -1,0 +1,109 @@
+{
+  "source": {
+    "figmaFileKey": "GmkQmekrao6tl5mbVFOrGo",
+    "designSystemNodeId": "39:162",
+    "auditDate": "2026-04-27",
+    "mode": "proposal-only"
+  },
+  "proposals": [
+    {
+      "id": "select-field",
+      "currentName": "Select Field",
+      "currentNodeId": "98:634",
+      "type": "COMPONENT_SET",
+      "proposedName": "Select Field",
+      "variantAxes": ["State", "Value Type"],
+      "risk": "low",
+      "suggestedAction": "keep-name-clean-properties-later",
+      "notes": "Keep public name; clean generated property suffixes in a later reviewed Figma batch."
+    },
+    {
+      "id": "input-field",
+      "currentName": "Input Field",
+      "currentNodeId": "106:1067",
+      "type": "COMPONENT_SET",
+      "proposedName": "Input Field",
+      "variantAxes": ["State", "Value Type"],
+      "risk": "low",
+      "suggestedAction": "keep-name-review-open-default",
+      "notes": "Keep aligned with Select Field; review why Open defaults differ."
+    },
+    {
+      "id": "button-icon-favorite",
+      "currentName": "Button",
+      "currentNodeId": "91:743",
+      "type": "COMPONENT_SET",
+      "proposedName": "Button/Icon",
+      "variantAxes": ["State"],
+      "risk": "medium",
+      "suggestedAction": "confirm-meaning-before-figma-rename",
+      "notes": "Current axis is Property 1; values should normalize to Default, Pressed, Disabled if confirmed."
+    },
+    {
+      "id": "button-icon-back",
+      "currentName": "Button",
+      "currentNodeId": "91:757",
+      "type": "COMPONENT_SET",
+      "proposedName": "Button/Back",
+      "variantAxes": ["State"],
+      "risk": "medium",
+      "suggestedAction": "confirm-meaning-before-figma-rename",
+      "notes": "Duplicate current name; proposed name needs consumer review."
+    },
+    {
+      "id": "button-secondary",
+      "currentName": "btn_secondary",
+      "currentNodeId": "91:761",
+      "type": "COMPONENT_SET",
+      "proposedName": "Button/Secondary",
+      "variantAxes": ["State"],
+      "risk": "medium",
+      "suggestedAction": "normalize-after-consumer-check",
+      "notes": "Normalize snake_case and mixed variant casing later."
+    },
+    {
+      "id": "button-primary",
+      "currentName": "btn_primary",
+      "currentNodeId": "91:764",
+      "type": "COMPONENT_SET",
+      "proposedName": "Button/Primary",
+      "variantAxes": ["State"],
+      "risk": "medium",
+      "suggestedAction": "normalize-after-consumer-check",
+      "notes": "Normalize snake_case and mixed variant casing later."
+    },
+    {
+      "id": "tab-bar",
+      "currentName": "Tabbar",
+      "currentNodeId": "56:990",
+      "type": "COMPONENT_SET",
+      "proposedName": "Tab Bar",
+      "variantAxes": ["State"],
+      "risk": "medium",
+      "suggestedAction": "confirm-product-spelling-and-chat-meaning",
+      "notes": "Confirm whether Chat is a state or selected tab value before renaming."
+    },
+    {
+      "id": "header",
+      "currentName": "Header",
+      "currentNodeId": "119:632",
+      "type": "COMPONENT_SET",
+      "proposedName": "Header",
+      "variantAxes": ["Variant"],
+      "risk": "low",
+      "suggestedAction": "rename-axis-from-property-1-later",
+      "notes": "Current axis is Property 1; search variant should use consistent casing."
+    },
+    {
+      "id": "icon",
+      "currentName": "Icon",
+      "currentNodeId": "50:1140",
+      "type": "COMPONENT_SET",
+      "proposedName": "Icon",
+      "variantAxes": ["Type"],
+      "risk": "low",
+      "suggestedAction": "keep-and-map-to-code-icons",
+      "notes": "Good candidate for stable icon registry and code mapping."
+    }
+  ]
+}
