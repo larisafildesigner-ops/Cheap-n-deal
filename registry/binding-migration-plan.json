@@ -98,6 +98,8 @@
       "oldName": "space/4m",
       "newName": "primitive/space/16",
       "estimatedReferences": 13,
+      "migratedReferences": 13,
+      "status": "applied",
       "primaryPath": "padding",
       "reason": "Button horizontal padding and frame padding."
     }
