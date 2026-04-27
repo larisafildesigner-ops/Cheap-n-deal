@@ -1,0 +1,127 @@
+{
+  "source": {
+    "figmaFileKey": "GmkQmekrao6tl5mbVFOrGo",
+    "designSystemNodeId": "39:162",
+    "auditDate": "2026-04-27",
+    "mode": "read-only-binding-audit"
+  },
+  "summary": {
+    "migrationPairsChecked": 36,
+    "completePairs": 36,
+    "missingPairs": 0,
+    "nodesWithOldVariableBindings": 177,
+    "oldVariableBindingReferences": 265
+  },
+  "recommendedOrder": [
+    {
+      "batch": 9,
+      "oldName": "icon/default",
+      "newName": "semantic/color/icon/default",
+      "estimatedReferences": 53,
+      "primaryPath": "strokes.0",
+      "reason": "High impact, clear semantics, easy visual validation."
+    },
+    {
+      "batch": 10,
+      "oldName": "text/primary",
+      "newName": "semantic/color/text/primary",
+      "estimatedReferences": 32,
+      "primaryPath": "fills.0",
+      "reason": "Common text fill binding."
+    },
+    {
+      "batch": 10,
+      "oldName": "text/secondary",
+      "newName": "semantic/color/text/secondary",
+      "estimatedReferences": 34,
+      "primaryPath": "fills.0",
+      "reason": "Common secondary text fill binding."
+    },
+    {
+      "batch": 11,
+      "oldName": "Radius/pill",
+      "newName": "primitive/radius/pill",
+      "estimatedReferences": 32,
+      "primaryPath": "corner radius",
+      "reason": "Common avatar/pill radius binding."
+    },
+    {
+      "batch": 11,
+      "oldName": "Radius/m",
+      "newName": "primitive/radius/m",
+      "estimatedReferences": 28,
+      "primaryPath": "corner radius",
+      "reason": "Common button/card radius binding."
+    },
+    {
+      "batch": 11,
+      "oldName": "Radius/s",
+      "newName": "primitive/radius/s",
+      "estimatedReferences": 12,
+      "primaryPath": "corner radius",
+      "reason": "Header/right-slot radius binding."
+    },
+    {
+      "batch": 12,
+      "oldName": "background/base",
+      "newName": "semantic/color/bg/base",
+      "estimatedReferences": 10,
+      "primaryPath": "fills.0",
+      "reason": "Field/card/header surface fill binding."
+    },
+    {
+      "batch": 12,
+      "oldName": "Border/invers",
+      "newName": "semantic/color/border/inverse",
+      "estimatedReferences": 9,
+      "primaryPath": "strokes.0",
+      "reason": "Field/header select stroke binding."
+    },
+    {
+      "batch": 13,
+      "oldName": "space/4m",
+      "newName": "primitive/space/16",
+      "estimatedReferences": 13,
+      "primaryPath": "padding",
+      "reason": "Button horizontal padding and frame padding."
+    }
+  ],
+  "allMigrationPairs": [
+    { "oldName": "Border/invers", "newName": "semantic/color/border/inverse" },
+    { "oldName": "text/disable", "newName": "semantic/color/text/disabled" },
+    { "oldName": "btn/disable", "newName": "component/button/bg/disabled" },
+    { "oldName": "Radius/s", "newName": "primitive/radius/s" },
+    { "oldName": "Radius/m", "newName": "primitive/radius/m" },
+    { "oldName": "Radius/pill", "newName": "primitive/radius/pill" },
+    { "oldName": "space/0m", "newName": "primitive/space/0" },
+    { "oldName": "space/1m", "newName": "primitive/space/4" },
+    { "oldName": "space/2m", "newName": "primitive/space/8" },
+    { "oldName": "space/3m", "newName": "primitive/space/12" },
+    { "oldName": "space/4m", "newName": "primitive/space/16" },
+    { "oldName": "space/5m", "newName": "primitive/space/20" },
+    { "oldName": "space/6m", "newName": "primitive/space/24" },
+    { "oldName": "space/8m", "newName": "primitive/space/32" },
+    { "oldName": "space/10m", "newName": "primitive/space/40" },
+    { "oldName": "background/base", "newName": "semantic/color/bg/base" },
+    { "oldName": "background/muted", "newName": "semantic/color/bg/muted" },
+    { "oldName": "background/card", "newName": "semantic/color/bg/card" },
+    { "oldName": "background/card inverse", "newName": "semantic/color/bg/card-inverse" },
+    { "oldName": "background/overlay", "newName": "semantic/color/bg/overlay" },
+    { "oldName": "accent/primary", "newName": "semantic/color/accent/primary" },
+    { "oldName": "text/primary", "newName": "semantic/color/text/primary" },
+    { "oldName": "text/secondary", "newName": "semantic/color/text/secondary" },
+    { "oldName": "text/inverse", "newName": "semantic/color/text/inverse" },
+    { "oldName": "icon/default", "newName": "semantic/color/icon/default" },
+    { "oldName": "icon/active", "newName": "semantic/color/icon/active" },
+    { "oldName": "icon/disabled", "newName": "semantic/color/icon/disabled" },
+    { "oldName": "state/success", "newName": "semantic/color/state/success" },
+    { "oldName": "state/warning", "newName": "semantic/color/state/warning" },
+    { "oldName": "state/error", "newName": "semantic/color/state/error" },
+    { "oldName": "state/info", "newName": "semantic/color/state/info" },
+    { "oldName": "Border/default", "newName": "semantic/color/border/default" },
+    { "oldName": "btn/full", "newName": "component/icon/favorite/fill/active" },
+    { "oldName": "btn/secondary", "newName": "component/button/bg/secondary/default" },
+    { "oldName": "btn/secondary inverse", "newName": "component/button/bg/secondary/on-muted" },
+    { "oldName": "btn/tertiary", "newName": "component/button/content/tertiary/default" }
+  ]
+}
