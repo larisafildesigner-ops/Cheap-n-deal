@@ -1,7 +1,8 @@
 # Design System Naming
 
-Status: proposal-only
+Status: binding migration complete inside `Design-system`
 Source audit: `reports/figma-audit.md`
+Final binding audit: `reports/figma-final-binding-audit.md`
 Figma file key: `GmkQmekrao6tl5mbVFOrGo`
 Design-system node: `39:162`
 
@@ -109,6 +110,26 @@ Rules:
 - Prefer adjectives for states: `disabled`, not `disable`.
 - Fix typos through aliases first: keep the existing variable until consumers migrate.
 - Move ambiguous floats such as `Number` into a named category or retire them after usage audit.
+
+## Binding Migration Status
+
+The audited `Design-system` node has been migrated from old variable bindings to semantic/component aliases.
+
+Final audit result:
+
+- Old variable binding references from the migration plan: 0
+- New alias binding references from the migration plan: 265
+- Component sets remain stable: 9
+- Components remain stable: 42
+- Instances remain stable: 41
+
+Old variables are deprecated compatibility variables. Keep them in Figma until product screens outside `Design-system` and any external consumers are audited.
+
+Rules for new work:
+
+- Bind new design-system components to semantic/component aliases only.
+- Do not bind new components to old names such as `text/primary`, `background/muted`, `btn/full`, or `space/0m`.
+- Do not delete old variables during normal component maintenance.
 
 ## First Applied Batch Criteria
 
