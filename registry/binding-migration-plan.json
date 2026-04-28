@@ -14,9 +14,31 @@
     "remainingOldVariableBindingReferencesAfterBatch13": 42,
     "remainingOldVariableBindingNodesAfterBatch13": 41,
     "remainingOldVariableBindingReferencesAfterBatch17": 5,
-    "remainingOldVariableBindingNodesAfterBatch17": 5
+    "remainingOldVariableBindingNodesAfterBatch17": 5,
+    "remainingOldVariableBindingReferencesAfterBatch18": 0,
+    "remainingOldVariableBindingNodesAfterBatch18": 0
   },
   "recommendedOrder": [
+    {
+      "batch": 18,
+      "oldName": "background/muted",
+      "newName": "semantic/color/bg/muted",
+      "estimatedReferences": 4,
+      "migratedReferences": 4,
+      "status": "applied",
+      "primaryPath": "fills.0",
+      "reason": "Final remaining muted Select fills inside Design-system."
+    },
+    {
+      "batch": 18,
+      "oldName": "space/0m",
+      "newName": "primitive/space/0",
+      "estimatedReferences": 1,
+      "migratedReferences": 1,
+      "status": "applied",
+      "primaryPath": "itemSpacing",
+      "reason": "Final remaining zero spacing binding inside Design-system."
+    },
     {
       "batch": 17,
       "oldName": "icon/disabled",
