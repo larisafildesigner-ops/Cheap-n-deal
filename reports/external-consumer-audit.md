@@ -18,8 +18,10 @@ This report does not delete, hide, rename, or move any Figma variables.
 | Deprecated variable registry | Complete |
 | Cleanup checklist | Complete |
 | External Figma files | Not directly discoverable from the local repo |
-| Published library consumers | Requires manual Figma library/usage check |
+| Published library consumers | User confirmed library is not published |
 | Automation outside this repo | Requires owner confirmation |
+
+Follow-up confirmation: `reports/external-consumer-confirmation.md`
 
 ## What Must Be Checked Manually
 
@@ -44,7 +46,6 @@ Before any old variable cleanup in Figma:
 
 ## Recommendation
 
-Current recommendation: keep old variables as deprecated compatibility variables.
+Current recommendation: prepare a final cleanup batch plan.
 
-The next safe deliverable is a cleanup proposal that remains blocked until external consumer status is confirmed.
-
+The Figma library is not published, so published-library consumer risk is clear. A final whole-file audit should still run immediately before any cleanup write action.

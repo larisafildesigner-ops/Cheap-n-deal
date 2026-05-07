@@ -16,6 +16,7 @@ Final audit:
 Deprecated variable registry: `registry/deprecated-variables.json`
 Consumer impact audit: `reports/consumer-impact-audit.md`
 External consumer audit: `reports/external-consumer-audit.md`
+External consumer confirmation: `reports/external-consumer-confirmation.md`
 Cleanup proposal: `docs/old-variables-cleanup-proposal.md`
 
 ## Policy
@@ -60,9 +61,10 @@ Recommended sequence:
 1. Documentation-only deprecation: complete.
 2. Local repository consumer impact audit: complete.
 3. External file/library usage audit plan: complete.
-4. External file/library confirmation: pending.
-5. Cleanup proposal: complete but blocked.
-6. Figma deletion/hiding batch: blocked until external consumer confirmation is complete.
+4. External file/library confirmation: complete; user confirmed library is not published.
+5. Cleanup proposal: complete.
+6. Final pre-cleanup audit: pending.
+7. Figma deletion/hiding batch: blocked until explicit cleanup approval.
 
 ## Do Not Do Yet
 

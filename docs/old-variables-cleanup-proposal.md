@@ -5,9 +5,9 @@ Figma file key: `GmkQmekrao6tl5mbVFOrGo`
 
 ## Status
 
-Cleanup is proposed but blocked.
+Cleanup is proposed and ready for a final pre-cleanup audit.
 
-Reason: the current Figma file and local repository are clean, but external Figma consumers and external automation have not been confirmed.
+Reason: the current Figma file and local repository are clean, and the user confirmed the Figma library is not published.
 
 ## Completed Preconditions
 
@@ -17,15 +17,15 @@ Reason: the current Figma file and local repository are clean, but external Figm
 - Deprecated variable registry exists: `registry/deprecated-variables.json`.
 - Cleanup checklist exists: `docs/deprecated-variables-cleanup.md`.
 - External consumer audit plan exists: `reports/external-consumer-audit.md`.
+- External consumer confirmation exists: `reports/external-consumer-confirmation.md`.
 
-## Blockers
+## Remaining Gates
 
 Do not delete, hide, rename, or move old variables until:
 
-1. Published library status is confirmed.
-2. Downstream Figma consumers are identified or ruled out.
-3. External automation and token exports are checked.
-4. A final whole-file audit is run immediately before cleanup.
+1. A final whole-file audit is run immediately before cleanup.
+2. The user explicitly approves the Figma cleanup write action.
+3. Automation/token exports outside this repo are either checked or accepted as out of scope.
 
 ## Proposed Cleanup Batch
 
@@ -67,9 +67,6 @@ Variable families in scope:
 
 Keep old variables for now.
 
-Proceed only after the user confirms one of these:
+Proceed only after the user explicitly confirms cleanup execution.
 
-- the Figma file is not published as a library and has no external consumers;
-- all external consumers have migrated;
-- deletion risk is accepted explicitly.
-
+The recommended next step is a read-only final pre-cleanup audit, followed by a separate cleanup batch only if the audit is clean.
