@@ -6,6 +6,7 @@ Final binding audit: `reports/figma-final-binding-audit.md`
 Final whole-file audit: `reports/figma-final-whole-file-binding-audit.md`
 Deprecated variables cleanup: `docs/deprecated-variables-cleanup.md`
 Typography registry: `registry/typography.json`
+Component maintenance policy: `docs/component-maintenance-policy.md`
 Figma file key: `GmkQmekrao6tl5mbVFOrGo`
 Design-system node: `39:162`
 
@@ -84,6 +85,33 @@ Recommended display names:
 | `Show Right#119:5` | `Show Right Slot` |
 
 Apply these only after confirming that published component property names are not consumed by code or design automation.
+
+## Component Maintenance
+
+Keep the current public component set stable.
+
+Safe updates:
+
+- Update component descriptions and usage guidance.
+- Fix confirmed typos in descriptions or documentation.
+- Update token bindings to approved semantic/component aliases.
+- Normalize variant axes or values when the meaning is already confirmed.
+- Rename generated boolean/text properties only when the public meaning is clear.
+
+Requires a separate decision:
+
+- Add a new public component set.
+- Delete or detach an existing public component set.
+- Change component structure or interaction behavior.
+- Rename a public component family with medium/high consumer risk.
+- Merge component sets that may represent different product roles.
+
+Deferred questions:
+
+- Confirm whether `Tabbar` should remain spelled as `Tabbar` or become `Tab Bar`.
+- Confirm whether Tabbar `Chat` is a state, tab value, or separate navigation item.
+- Review Select Field and Input Field generated property suffixes before cleanup.
+- Map Icon variants to code icon names after implementation consumers exist.
 
 ## Token Names
 
