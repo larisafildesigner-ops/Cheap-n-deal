@@ -122,21 +122,19 @@
       "currentNodeId": "56:990",
       "type": "COMPONENT_SET",
       "proposedName": "Tab Bar",
-      "variantAxes": ["State"],
-      "proposedVariantAxes": ["Variant"],
+      "variantAxes": ["Variant"],
       "variantDecision": {
-        "currentAxis": "State",
-        "recommendedAxis": "Variant",
+        "previousAxis": "State",
+        "currentAxis": "Variant",
         "currentValues": ["Default", "Chat"],
-        "recommendedValues": ["Default", "Chat"],
         "meaning": "`Chat` is a layout/content variant with a message entry row, not an interaction state.",
-        "figmaChangeStatus": "not-applied"
+        "figmaChangeStatus": "applied-batch-tabbar-variant-axis"
       },
       "risk": "medium",
-      "suggestedAction": "keep-name-document-chat-meaning-rename-axis-later",
+      "suggestedAction": "keep-public-name-review-spelling-later",
       "descriptionStatus": "applied-batch-typography-component-01",
-      "figmaDescription": "Bottom tab bar item states for navigation and chat destination.",
-      "notes": "Read-only inspection confirmed that Chat adds a Message... entry row and compact tab labels. Treat Chat as a Tabbar layout/content variant, not state. Keep Figma name unchanged until a scoped rename batch is approved."
+      "figmaDescription": "Bottom tab bar with default navigation and chat/message entry variants.",
+      "notes": "Variant axis renamed in Figma from State to Variant. Chat adds a Message... entry row and compact tab labels. Keep public component set name unchanged until a separate naming decision is approved."
     },
     {
       "id": "header",

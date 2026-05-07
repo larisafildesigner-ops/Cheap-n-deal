@@ -6,9 +6,9 @@ Component set: `Tabbar` (`56:990`)
 
 ## Scope
 
-Read-only inspection of the `Tabbar` component set.
+Initial read-only inspection of the `Tabbar` component set.
 
-No Figma changes were made.
+No Figma changes were made during the initial inspection. A later applied follow-up batch is recorded below.
 
 ## Current Structure
 
@@ -33,7 +33,7 @@ Treat `Chat` as a Tabbar layout/content variant, not as a component state.
 
 Keep the Figma component set name unchanged for now because the component library is local and the broader component policy favors stability.
 
-## Recommended Future Figma Batch
+## Original Recommended Figma Batch
 
 Only after approval:
 
@@ -45,3 +45,16 @@ Only after approval:
 ## Registry Status
 
 The decision is recorded in `registry/components.json`.
+
+## Applied Follow-Up Batch
+
+Date: 2026-05-07
+
+Applied Figma changes:
+
+- Renamed Tabbar variant axis from `State` to `Variant`.
+- Kept variant values `Default` and `Chat`.
+- Updated component description to `Bottom tab bar with default navigation and chat/message entry variants.`
+- Kept public component set name as `Tabbar`.
+
+No structure, layout, values, or child nodes were changed.

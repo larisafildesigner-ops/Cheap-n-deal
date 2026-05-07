@@ -36,11 +36,13 @@ The design system currently has 9 audited component sets with descriptions appli
 
 `Tabbar` variant `Chat` is a layout/content variant with a message entry row, not an interaction state.
 
-Recommended future Figma batch:
+Applied Figma batch:
 
-1. Rename the Tabbar variant axis from `State` to `Variant`.
-2. Keep variant values as `Default` and `Chat` unless product vocabulary prefers a more explicit value.
-3. Keep the public component set name `Tabbar` unchanged until a separate naming decision is approved.
+1. Renamed the Tabbar variant axis from `State` to `Variant`.
+2. Kept variant values as `Default` and `Chat`.
+3. Kept the public component set name `Tabbar` unchanged.
+
+Remaining decision: confirm whether the public component set spelling should stay `Tabbar` or become `Tab Bar`.
 
 ## Next Safe Batch
 
