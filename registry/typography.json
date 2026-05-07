@@ -7,9 +7,13 @@
   "status": {
     "state": "figma-styles-normalized",
     "batchReport": "reports/figma-typography-component-batch-01-result.md",
+    "usageAuditReport": "reports/figma-typography-usage-audit.md",
     "textStyleCount": 5,
     "renamedTextStyles": 5,
-    "componentSetDescriptionsUpdated": 9
+    "componentSetDescriptionsUpdated": 9,
+    "textNodesAudited": 734,
+    "styleSpecGroups": 46,
+    "recommendation": "Do not mass-rebind all unstyled text. Create missing style proposals and apply in scoped batches."
   },
   "styles": [
     {
@@ -66,6 +70,7 @@
   "nextSteps": [
     "Audit unstyled text nodes separately before mass applying text styles.",
     "Review external/imported text style IDs before replacing them.",
-    "Keep style names lowercase slash paths for new typography styles."
+    "Keep style names lowercase slash paths for new typography styles.",
+    "Propose missing styles for repeated specs before applying them."
   ]
 }

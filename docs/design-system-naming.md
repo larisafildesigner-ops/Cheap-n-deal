@@ -132,6 +132,7 @@ Rules:
 - Do not use title-only names such as `H1` or `H2` for new styles.
 - Add descriptions to every public text style.
 - Audit unstyled text nodes before applying styles in bulk.
+- Do not mass-rebind documentation pages such as `Cart` without a separate review.
 
 ## Binding Migration Status
 
