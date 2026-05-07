@@ -109,9 +109,15 @@ Requires a separate decision:
 Deferred questions:
 
 - Confirm whether `Tabbar` should remain spelled as `Tabbar` or become `Tab Bar`.
-- Confirm whether Tabbar `Chat` is a state, tab value, or separate navigation item.
 - Review Select Field and Input Field generated property suffixes before cleanup.
 - Map Icon variants to code icon names after implementation consumers exist.
+
+Tabbar decision:
+
+- `Chat` is a layout/content variant with a message entry row, not an interaction state.
+- Future Figma cleanup should rename the Tabbar axis from `State` to `Variant`.
+- Keep values `Default` and `Chat` unless product vocabulary confirms a more explicit value.
+- Keep the component set name `Tabbar` unchanged until a separate naming decision is approved.
 
 ## Token Names
 

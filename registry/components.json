@@ -33,7 +33,6 @@
     ],
     "deferredQuestions": [
       "Confirm whether Tabbar should remain spelled as `Tabbar` or become `Tab Bar`.",
-      "Confirm whether Tabbar `Chat` is a state, tab value, or separate navigation item.",
       "Review Select Field and Input Field generated property suffixes before cleanup.",
       "Map Icon variants to code icon names after implementation consumers exist."
     ]
@@ -124,11 +123,20 @@
       "type": "COMPONENT_SET",
       "proposedName": "Tab Bar",
       "variantAxes": ["State"],
+      "proposedVariantAxes": ["Variant"],
+      "variantDecision": {
+        "currentAxis": "State",
+        "recommendedAxis": "Variant",
+        "currentValues": ["Default", "Chat"],
+        "recommendedValues": ["Default", "Chat"],
+        "meaning": "`Chat` is a layout/content variant with a message entry row, not an interaction state.",
+        "figmaChangeStatus": "not-applied"
+      },
       "risk": "medium",
-      "suggestedAction": "confirm-product-spelling-and-chat-meaning",
+      "suggestedAction": "keep-name-document-chat-meaning-rename-axis-later",
       "descriptionStatus": "applied-batch-typography-component-01",
       "figmaDescription": "Bottom tab bar item states for navigation and chat destination.",
-      "notes": "Confirm whether Chat is a state or selected tab value before renaming."
+      "notes": "Read-only inspection confirmed that Chat adds a Message... entry row and compact tab labels. Treat Chat as a Tabbar layout/content variant, not state. Keep Figma name unchanged until a scoped rename batch is approved."
     },
     {
       "id": "header",

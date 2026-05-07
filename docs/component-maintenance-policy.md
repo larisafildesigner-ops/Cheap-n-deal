@@ -29,9 +29,18 @@ The design system currently has 9 audited component sets with descriptions appli
 ## Deferred Questions
 
 - Confirm whether `Tabbar` should remain spelled as `Tabbar` or become `Tab Bar`.
-- Confirm whether Tabbar `Chat` is a state, tab value, or separate navigation item.
 - Review Select Field and Input Field generated property suffixes before cleanup.
 - Map Icon variants to code icon names after implementation consumers exist.
+
+## Tabbar Decision
+
+`Tabbar` variant `Chat` is a layout/content variant with a message entry row, not an interaction state.
+
+Recommended future Figma batch:
+
+1. Rename the Tabbar variant axis from `State` to `Variant`.
+2. Keep variant values as `Default` and `Chat` unless product vocabulary prefers a more explicit value.
+3. Keep the public component set name `Tabbar` unchanged until a separate naming decision is approved.
 
 ## Next Safe Batch
 
