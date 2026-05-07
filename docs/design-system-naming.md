@@ -3,6 +3,8 @@
 Status: binding migration complete inside `Design-system`
 Source audit: `reports/figma-audit.md`
 Final binding audit: `reports/figma-final-binding-audit.md`
+Final whole-file audit: `reports/figma-final-whole-file-binding-audit.md`
+Deprecated variables cleanup: `docs/deprecated-variables-cleanup.md`
 Figma file key: `GmkQmekrao6tl5mbVFOrGo`
 Design-system node: `39:162`
 
@@ -123,13 +125,14 @@ Final audit result:
 - Components remain stable: 42
 - Instances remain stable: 41
 
-Old variables are deprecated compatibility variables. Keep them in Figma until product screens outside `Design-system` and any external consumers are audited.
+Old variables are deprecated compatibility variables. The whole Figma file has zero old variable binding references from the migration plan, but old variables should stay in Figma until published library consumers, external Figma files, and automation are audited.
 
 Rules for new work:
 
 - Bind new design-system components to semantic/component aliases only.
 - Do not bind new components to old names such as `text/primary`, `background/muted`, `btn/full`, or `space/0m`.
 - Do not delete old variables during normal component maintenance.
+- Use `registry/deprecated-variables.json` as the source of truth for old-to-new token replacements.
 
 ## First Applied Batch Criteria
 

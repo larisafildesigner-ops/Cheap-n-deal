@@ -1,0 +1,59 @@
+{
+  "source": {
+    "figmaFileKey": "GmkQmekrao6tl5mbVFOrGo",
+    "designSystemNodeId": "39:162",
+    "auditDate": "2026-04-29",
+    "basis": "reports/figma-final-whole-file-binding-audit.md"
+  },
+  "status": {
+    "state": "deprecated-compatibility",
+    "oldVariableBindingReferencesWholeFile": 0,
+    "policy": "Do not bind new work to deprecated variables. Do not delete old variables until published library consumers, external Figma files, and automation are checked."
+  },
+  "deprecatedVariables": [
+    { "oldName": "Border/invers", "replacement": "semantic/color/border/inverse", "reason": "Typo and casing normalization." },
+    { "oldName": "text/disable", "replacement": "semantic/color/text/disabled", "reason": "State adjective normalization." },
+    { "oldName": "btn/disable", "replacement": "component/button/bg/disabled", "reason": "Component token naming normalization." },
+    { "oldName": "Radius/s", "replacement": "primitive/radius/s", "reason": "Primitive radius path normalization." },
+    { "oldName": "Radius/m", "replacement": "primitive/radius/m", "reason": "Primitive radius path normalization." },
+    { "oldName": "Radius/pill", "replacement": "primitive/radius/pill", "reason": "Primitive radius path normalization." },
+    { "oldName": "space/0m", "replacement": "primitive/space/0", "reason": "Primitive spacing path normalization." },
+    { "oldName": "space/1m", "replacement": "primitive/space/4", "reason": "Primitive spacing path normalization." },
+    { "oldName": "space/2m", "replacement": "primitive/space/8", "reason": "Primitive spacing path normalization." },
+    { "oldName": "space/3m", "replacement": "primitive/space/12", "reason": "Primitive spacing path normalization." },
+    { "oldName": "space/4m", "replacement": "primitive/space/16", "reason": "Primitive spacing path normalization." },
+    { "oldName": "space/5m", "replacement": "primitive/space/20", "reason": "Primitive spacing path normalization." },
+    { "oldName": "space/6m", "replacement": "primitive/space/24", "reason": "Primitive spacing path normalization." },
+    { "oldName": "space/8m", "replacement": "primitive/space/32", "reason": "Primitive spacing path normalization." },
+    { "oldName": "space/10m", "replacement": "primitive/space/40", "reason": "Primitive spacing path normalization." },
+    { "oldName": "background/base", "replacement": "semantic/color/bg/base", "reason": "Semantic color path normalization." },
+    { "oldName": "background/muted", "replacement": "semantic/color/bg/muted", "reason": "Semantic color path normalization." },
+    { "oldName": "background/card", "replacement": "semantic/color/bg/card", "reason": "Semantic color path normalization." },
+    { "oldName": "background/card inverse", "replacement": "semantic/color/bg/card-inverse", "reason": "Semantic color path normalization." },
+    { "oldName": "background/overlay", "replacement": "semantic/color/bg/overlay", "reason": "Semantic color path normalization." },
+    { "oldName": "accent/primary", "replacement": "semantic/color/accent/primary", "reason": "Semantic color path normalization." },
+    { "oldName": "text/primary", "replacement": "semantic/color/text/primary", "reason": "Semantic text token path normalization." },
+    { "oldName": "text/secondary", "replacement": "semantic/color/text/secondary", "reason": "Semantic text token path normalization." },
+    { "oldName": "text/inverse", "replacement": "semantic/color/text/inverse", "reason": "Semantic text token path normalization." },
+    { "oldName": "icon/default", "replacement": "semantic/color/icon/default", "reason": "Semantic icon token path normalization." },
+    { "oldName": "icon/active", "replacement": "semantic/color/icon/active", "reason": "Semantic icon token path normalization." },
+    { "oldName": "icon/disabled", "replacement": "semantic/color/icon/disabled", "reason": "Semantic icon token path normalization." },
+    { "oldName": "state/success", "replacement": "semantic/color/state/success", "reason": "Semantic state token path normalization." },
+    { "oldName": "state/warning", "replacement": "semantic/color/state/warning", "reason": "Semantic state token path normalization." },
+    { "oldName": "state/error", "replacement": "semantic/color/state/error", "reason": "Semantic state token path normalization." },
+    { "oldName": "state/info", "replacement": "semantic/color/state/info", "reason": "Semantic state token path normalization." },
+    { "oldName": "Border/default", "replacement": "semantic/color/border/default", "reason": "Casing and semantic border path normalization." },
+    { "oldName": "btn/full", "replacement": "component/icon/favorite/fill/active", "reason": "Favorite icon active fill token clarified." },
+    { "oldName": "btn/secondary", "replacement": "component/button/bg/secondary/default", "reason": "Component button background token path normalization." },
+    { "oldName": "btn/secondary inverse", "replacement": "component/button/bg/secondary/on-muted", "reason": "Secondary button on muted surfaces clarified." },
+    { "oldName": "btn/tertiary", "replacement": "component/button/content/tertiary/default", "reason": "Tertiary button content color clarified." }
+  ],
+  "consumerImpactChecklist": [
+    "Confirm the Figma library is not published to external files that still reference old variable names.",
+    "Open or audit known downstream Figma files and check variable usage after accepting library updates.",
+    "Check code automation, token export scripts, handoff docs, and design-to-code mappings for old variable names.",
+    "Communicate a deprecation window before deletion or hiding.",
+    "Run a final whole-file binding audit immediately before any cleanup batch.",
+    "Delete or hide old variables only in a separate reviewed cleanup batch."
+  ]
+}
