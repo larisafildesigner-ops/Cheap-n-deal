@@ -1,0 +1,71 @@
+{
+  "source": {
+    "figmaFileKey": "GmkQmekrao6tl5mbVFOrGo",
+    "designSystemNodeId": "39:162",
+    "auditDate": "2026-05-07"
+  },
+  "status": {
+    "state": "figma-styles-normalized",
+    "batchReport": "reports/figma-typography-component-batch-01-result.md",
+    "textStyleCount": 5,
+    "renamedTextStyles": 5,
+    "componentSetDescriptionsUpdated": 9
+  },
+  "styles": [
+    {
+      "name": "typography/heading/h1",
+      "previousName": "H1",
+      "fontFamily": "Inter",
+      "fontStyle": "Regular",
+      "fontSize": 24,
+      "lineHeight": 30,
+      "letterSpacing": 0,
+      "description": "Page-level heading. Inter Regular 24/30."
+    },
+    {
+      "name": "typography/heading/h2",
+      "previousName": "H2",
+      "fontFamily": "Inter",
+      "fontStyle": "Semi Bold",
+      "fontSize": 16,
+      "lineHeight": 20,
+      "letterSpacing": 0,
+      "description": "Section/card heading and emphasized price text. Inter Semi Bold 16/20."
+    },
+    {
+      "name": "typography/body/s",
+      "previousName": "B",
+      "fontFamily": "Inter",
+      "fontStyle": "Medium",
+      "fontSize": 12,
+      "lineHeight": 18,
+      "letterSpacing": 0,
+      "description": "Small body and helper text. Inter Medium 12/18."
+    },
+    {
+      "name": "typography/caption",
+      "previousName": "caption",
+      "fontFamily": "Inter",
+      "fontStyle": "Regular",
+      "fontSize": 10,
+      "lineHeight": 14,
+      "letterSpacing": 0,
+      "description": "Caption text. Inter Regular 10/14."
+    },
+    {
+      "name": "typography/button/s",
+      "previousName": "button",
+      "fontFamily": "Inter",
+      "fontStyle": "Regular",
+      "fontSize": 12,
+      "lineHeight": 18,
+      "letterSpacing": 0,
+      "description": "Button label text. Inter Regular 12/18."
+    }
+  ],
+  "nextSteps": [
+    "Audit unstyled text nodes separately before mass applying text styles.",
+    "Review external/imported text style IDs before replacing them.",
+    "Keep style names lowercase slash paths for new typography styles."
+  ]
+}

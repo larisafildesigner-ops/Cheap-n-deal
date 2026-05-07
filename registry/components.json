@@ -15,6 +15,8 @@
       "variantAxes": ["State", "Value Type"],
       "risk": "low",
       "suggestedAction": "keep-name-clean-properties-later",
+      "descriptionStatus": "applied-batch-typography-component-01",
+      "figmaDescription": "Dropdown/select field with label, description, placeholder/default value, error, disabled, and open states.",
       "notes": "Keep public name; clean generated property suffixes in a later reviewed Figma batch."
     },
     {
@@ -26,6 +28,8 @@
       "variantAxes": ["State", "Value Type"],
       "risk": "low",
       "suggestedAction": "keep-name-review-open-default",
+      "descriptionStatus": "applied-batch-typography-component-01",
+      "figmaDescription": "Text input field with label, description, placeholder/default value, error, and disabled states.",
       "notes": "Keep aligned with Select Field; review why Open defaults differ."
     },
     {
@@ -37,6 +41,8 @@
       "variantAxes": ["State"],
       "risk": "applied",
       "suggestedAction": "renamed-batch-05-state-axis-batch-06",
+      "descriptionStatus": "applied-batch-typography-component-01",
+      "figmaDescription": "Icon-only button component with default, pressed, and disabled states.",
       "notes": "Renamed in Figma from Button to Button/Icon in Batch 05. Variant axis normalized to State with Default, Pressed, Disabled in Batch 06."
     },
     {
@@ -48,6 +54,8 @@
       "variantAxes": ["State"],
       "risk": "applied",
       "suggestedAction": "renamed-batch-05-state-axis-batch-06",
+      "descriptionStatus": "applied-batch-typography-component-01",
+      "figmaDescription": "Back/navigation button component with default and disabled states.",
       "notes": "Renamed in Figma from Button to Button/Back in Batch 05. Variant axis normalized to State with Default, Disabled in Batch 06."
     },
     {
@@ -59,6 +67,8 @@
       "variantAxes": ["State"],
       "risk": "applied",
       "suggestedAction": "renamed-batch-05-state-axis-batch-06",
+      "descriptionStatus": "applied-batch-typography-component-01",
+      "figmaDescription": "Secondary button component for low-emphasis actions with default, pressed, and disabled states.",
       "notes": "Renamed in Figma from btn_secondary to Button/Secondary in Batch 05. Variant axis normalized to State with Default, Pressed, Disabled in Batch 06."
     },
     {
@@ -70,6 +80,8 @@
       "variantAxes": ["State"],
       "risk": "applied",
       "suggestedAction": "renamed-batch-05-state-axis-batch-06",
+      "descriptionStatus": "applied-batch-typography-component-01",
+      "figmaDescription": "Primary button component for main actions with default, pressed, and disabled states.",
       "notes": "Renamed in Figma from btn_primary to Button/Primary in Batch 05. Variant axis normalized to State with Default, Pressed, Disabled in Batch 06."
     },
     {
@@ -81,6 +93,8 @@
       "variantAxes": ["State"],
       "risk": "medium",
       "suggestedAction": "confirm-product-spelling-and-chat-meaning",
+      "descriptionStatus": "applied-batch-typography-component-01",
+      "figmaDescription": "Bottom tab bar item states for navigation and chat destination.",
       "notes": "Confirm whether Chat is a state or selected tab value before renaming."
     },
     {
@@ -92,6 +106,8 @@
       "variantAxes": ["Variant"],
       "risk": "applied",
       "suggestedAction": "axis-renamed-batch-05-properties-batch-07",
+      "descriptionStatus": "applied-batch-typography-component-01",
+      "figmaDescription": "Screen header with optional title, subtitle, right slot, and search variant.",
       "notes": "Header variant axis renamed from Property 1 to Variant; search value normalized to Search in Batch 05. Boolean properties renamed to Show Title, Show Subtitle, and Show Right Slot in Batch 07."
     },
     {
@@ -103,6 +119,8 @@
       "variantAxes": ["Type"],
       "risk": "low",
       "suggestedAction": "keep-and-map-to-code-icons",
+      "descriptionStatus": "applied-batch-typography-component-01",
+      "figmaDescription": "Icon component set for product navigation and interface icons.",
       "notes": "Good candidate for stable icon registry and code mapping."
     }
   ]

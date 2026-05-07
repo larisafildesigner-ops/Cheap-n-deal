@@ -5,6 +5,7 @@ Source audit: `reports/figma-audit.md`
 Final binding audit: `reports/figma-final-binding-audit.md`
 Final whole-file audit: `reports/figma-final-whole-file-binding-audit.md`
 Deprecated variables cleanup: `docs/deprecated-variables-cleanup.md`
+Typography registry: `registry/typography.json`
 Figma file key: `GmkQmekrao6tl5mbVFOrGo`
 Design-system node: `39:162`
 
@@ -113,6 +114,25 @@ Rules:
 - Fix typos through aliases first: keep the existing variable until consumers migrate.
 - Move ambiguous floats such as `Number` into a named category or retire them after usage audit.
 
+## Typography Styles
+
+Use lowercase slash paths for public text styles:
+
+| Style | Use |
+| --- | --- |
+| `typography/heading/h1` | Page-level heading |
+| `typography/heading/h2` | Section/card heading and emphasized price |
+| `typography/body/s` | Small body and helper text |
+| `typography/caption` | Caption text |
+| `typography/button/s` | Button labels |
+
+Rules:
+
+- Do not create new one-letter style names such as `B`.
+- Do not use title-only names such as `H1` or `H2` for new styles.
+- Add descriptions to every public text style.
+- Audit unstyled text nodes before applying styles in bulk.
+
 ## Binding Migration Status
 
 The audited `Design-system` node has been migrated from old variable bindings to semantic/component aliases.
@@ -125,13 +145,13 @@ Final audit result:
 - Components remain stable: 42
 - Instances remain stable: 41
 
-Old variables are deprecated compatibility variables. The whole Figma file has zero old variable binding references from the migration plan, but old variables should stay in Figma until published library consumers, external Figma files, and automation are audited.
+Old variables were deleted after cleanup. The whole Figma file has zero old variable binding references from the migration plan.
 
 Rules for new work:
 
 - Bind new design-system components to semantic/component aliases only.
 - Do not bind new components to old names such as `text/primary`, `background/muted`, `btn/full`, or `space/0m`.
-- Do not delete old variables during normal component maintenance.
+- Do not recreate old variables during normal component maintenance.
 - Use `registry/deprecated-variables.json` as the source of truth for old-to-new token replacements.
 
 ## First Applied Batch Criteria
