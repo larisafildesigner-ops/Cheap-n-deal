@@ -128,6 +128,10 @@ Use lowercase slash paths for public text styles:
 
 Rules:
 
+- Keep the current 5 public text styles as the approved minimal set.
+- Do not add new typography styles just to cover repeated one-off specs from audits.
+- Update existing style values, descriptions, and usage guidance when the current role is still correct.
+- Add a new typography style only when a reusable product role is confirmed.
 - Do not create new one-letter style names such as `B`.
 - Do not use title-only names such as `H1` or `H2` for new styles.
 - Add descriptions to every public text style.

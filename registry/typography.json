@@ -13,7 +13,10 @@
     "componentSetDescriptionsUpdated": 9,
     "textNodesAudited": 734,
     "styleSpecGroups": 46,
-    "recommendation": "Do not mass-rebind all unstyled text. Create missing style proposals and apply in scoped batches."
+    "minimalSetApproved": true,
+    "newStylesPlanned": false,
+    "styleExpansionStatus": "deferred-until-confirmed-product-need",
+    "recommendation": "Keep the current 5 typography styles as the approved minimal set. Update existing styles when needed, but do not add new text styles only to cover repeated specs."
   },
   "styles": [
     {
@@ -70,7 +73,8 @@
   "nextSteps": [
     "Audit unstyled text nodes separately before mass applying text styles.",
     "Review external/imported text style IDs before replacing them.",
-    "Keep style names lowercase slash paths for new typography styles.",
-    "Propose missing styles for repeated specs before applying them."
+    "Keep style names lowercase slash paths if a future product need confirms a new typography style.",
+    "Prefer updating descriptions, usage guidance, or existing style values before expanding the style set.",
+    "Defer repeated-spec style proposals until the design system needs a new reusable typography role."
   ]
 }
