@@ -18,12 +18,13 @@ Consumer impact audit: `reports/consumer-impact-audit.md`
 External consumer audit: `reports/external-consumer-audit.md`
 External consumer confirmation: `reports/external-consumer-confirmation.md`
 Cleanup proposal: `docs/old-variables-cleanup-proposal.md`
+Cleanup result: `reports/figma-old-variables-cleanup-result.md`
 
 ## Policy
 
-Old variables are now compatibility variables.
+Old variables were deleted from the current Figma file after explicit user approval.
 
-Do not use them for new work. Do not delete them yet unless all downstream consumers have been checked.
+Do not use old variable names for new work. Use the replacements in `registry/deprecated-variables.json`.
 
 ## Deprecated Variable Families
 
@@ -63,12 +64,11 @@ Recommended sequence:
 3. External file/library usage audit plan: complete.
 4. External file/library confirmation: complete; user confirmed library is not published.
 5. Cleanup proposal: complete.
-6. Final pre-cleanup audit: pending.
-7. Figma deletion/hiding batch: blocked until explicit cleanup approval.
+6. Final pre-cleanup audit: skipped by explicit user request.
+7. Figma deletion batch: complete.
 
-## Do Not Do Yet
+## Do Not Do
 
-- Do not delete old variables.
-- Do not rename old variables to include `deprecated/`.
-- Do not move old variables between collections.
-- Do not hide old variables if external consumers have not been checked.
+- Do not recreate old variables.
+- Do not bind new work to old variable names.
+- Do not rename current semantic/component aliases back to old names.

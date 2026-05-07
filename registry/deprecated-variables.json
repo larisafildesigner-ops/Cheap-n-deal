@@ -6,9 +6,13 @@
     "basis": "reports/figma-final-whole-file-binding-audit.md"
   },
   "status": {
-    "state": "deprecated-compatibility",
+    "state": "deleted-from-figma",
+    "cleanupDate": "2026-05-07",
+    "cleanupReport": "reports/figma-old-variables-cleanup-result.md",
     "oldVariableBindingReferencesWholeFile": 0,
-    "policy": "Do not bind new work to deprecated variables. Do not delete old variables until published library consumers, external Figma files, and automation are checked."
+    "deletedVariables": 36,
+    "materializedReplacementValues": 36,
+    "policy": "Deprecated variables were deleted from the current Figma file after explicit user approval. Use replacements only."
   },
   "deprecatedVariables": [
     { "oldName": "Border/invers", "replacement": "semantic/color/border/inverse", "reason": "Typo and casing normalization." },

@@ -5,9 +5,9 @@ Figma file key: `GmkQmekrao6tl5mbVFOrGo`
 
 ## Status
 
-Cleanup is proposed and ready for a final pre-cleanup audit.
+Cleanup is complete.
 
-Reason: the current Figma file and local repository are clean, and the user confirmed the Figma library is not published.
+Reason: the user explicitly approved deleting old variables without an additional pre-cleanup audit.
 
 ## Completed Preconditions
 
@@ -18,26 +18,23 @@ Reason: the current Figma file and local repository are clean, and the user conf
 - Cleanup checklist exists: `docs/deprecated-variables-cleanup.md`.
 - External consumer audit plan exists: `reports/external-consumer-audit.md`.
 - External consumer confirmation exists: `reports/external-consumer-confirmation.md`.
+- Cleanup result exists: `reports/figma-old-variables-cleanup-result.md`.
 
-## Remaining Gates
+## Cleanup Result
 
-Do not delete, hide, rename, or move old variables until:
+Deprecated variables deleted from Figma: 36
 
-1. A final whole-file audit is run immediately before cleanup.
-2. The user explicitly approves the Figma cleanup write action.
-3. Automation/token exports outside this repo are either checked or accepted as out of scope.
+Replacement variables materialized before deletion: 36
 
 ## Proposed Cleanup Batch
 
-When blockers are resolved, cleanup should happen as a separate reviewed batch.
+Cleanup happened as a separate Figma write batch.
 
 Suggested sequence:
 
-1. Re-run whole-file binding audit.
-2. Re-check external consumer status.
-3. Snapshot/export deprecated registry.
-4. Hide or archive old variables first if Figma supports a reversible approach.
-5. Delete variables only after a deprecation window and explicit approval.
+1. Replacement values were materialized where replacements aliased old variables.
+2. Deprecated variables were removed.
+3. Registry and docs were updated.
 
 ## Variables In Scope
 
@@ -65,8 +62,6 @@ Variable families in scope:
 
 ## Recommendation
 
-Keep old variables for now.
+Use semantic/component replacements only.
 
-Proceed only after the user explicitly confirms cleanup execution.
-
-The recommended next step is a read-only final pre-cleanup audit, followed by a separate cleanup batch only if the audit is clean.
+Optional next step: run a post-cleanup read-only audit if visual or token regressions are suspected.
