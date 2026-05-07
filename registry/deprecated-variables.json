@@ -9,9 +9,12 @@
     "state": "deleted-from-figma",
     "cleanupDate": "2026-05-07",
     "cleanupReport": "reports/figma-old-variables-cleanup-result.md",
+    "postCleanupAuditReport": "reports/figma-post-cleanup-audit.md",
     "oldVariableBindingReferencesWholeFile": 0,
     "deletedVariables": 36,
     "materializedReplacementValues": 36,
+    "postCleanupDeprecatedVariablesFound": 0,
+    "postCleanupReplacementVariablesFound": 36,
     "policy": "Deprecated variables were deleted from the current Figma file after explicit user approval. Use replacements only."
   },
   "deprecatedVariables": [

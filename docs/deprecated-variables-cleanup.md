@@ -19,6 +19,7 @@ External consumer audit: `reports/external-consumer-audit.md`
 External consumer confirmation: `reports/external-consumer-confirmation.md`
 Cleanup proposal: `docs/old-variables-cleanup-proposal.md`
 Cleanup result: `reports/figma-old-variables-cleanup-result.md`
+Post-cleanup audit: `reports/figma-post-cleanup-audit.md`
 
 ## Policy
 
@@ -66,6 +67,7 @@ Recommended sequence:
 5. Cleanup proposal: complete.
 6. Final pre-cleanup audit: skipped by explicit user request.
 7. Figma deletion batch: complete.
+8. Post-cleanup audit: complete.
 
 ## Do Not Do
 
