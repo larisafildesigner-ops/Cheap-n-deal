@@ -14,6 +14,7 @@ Final audit:
 - Whole Figma file: 0 old variable binding references
 
 Deprecated variable registry: `registry/deprecated-variables.json`
+Consumer impact audit: `reports/consumer-impact-audit.md`
 
 ## Policy
 
@@ -55,7 +56,7 @@ Before deleting, hiding, or archiving old variables:
 Recommended sequence:
 
 1. Documentation-only deprecation: complete.
-2. Consumer impact audit: pending.
+2. Local repository consumer impact audit: complete.
 3. External file/library usage audit: pending.
 4. Cleanup proposal: pending.
 5. Figma deletion/hiding batch: blocked until consumer impact is complete.
@@ -66,4 +67,3 @@ Recommended sequence:
 - Do not rename old variables to include `deprecated/`.
 - Do not move old variables between collections.
 - Do not hide old variables if external consumers have not been checked.
-
